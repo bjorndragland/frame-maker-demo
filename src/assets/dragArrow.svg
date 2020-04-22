@@ -1,0 +1,9 @@
+<svg version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:cc="http://creativecommons.org/ns#"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <polygon points="0,50 50,0 50,25 200,25 200,0 250,50 200,100 200,75 50,75 50,100 0,50"
+    fill="#e2a22c" stroke="#000000" stroke-width="1"/>
+</svg>

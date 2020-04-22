@@ -39,19 +39,22 @@
       />
 
       <rect x="0" y="0" width="600" height="400" fill="none" stroke="black" stroke-width="1" />
-
-      <circle cx="50" cy="50" r="25" />
+      <SvgFrame/>
+      <!-- <circle cx="50" cy="50" r="25" /> -->
     </svg>
-    <p>hallo ballo dallo</p>
   </div>
 </template>
 
 <script>
+import SvgFrame from "./SvgFrame.vue";
 export default {
   data() {
     return {
       horLines: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110]
     };
+  },
+  components: {
+    SvgFrame
   }
 };
 </script>
