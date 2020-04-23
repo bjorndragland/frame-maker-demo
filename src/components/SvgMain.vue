@@ -26,7 +26,6 @@
       />
 
       <!-- vertical lines -->
-
       <line
         v-for="lines in 60"
         :key="lines*1000"
@@ -39,7 +38,7 @@
       />
 
       <rect x="0" y="0" width="600" height="400" fill="none" stroke="black" stroke-width="1" />
-      <SvgFrame/>
+      <SvgFrame />
       <!-- <circle cx="50" cy="50" r="25" /> -->
     </svg>
   </div>
