@@ -19,8 +19,15 @@ export default {
     translationPoints() {
       let thex = this.x - 25;
       let they = this.y - 10;
-      let theangle = this.angle
-      return "translate(" + thex + " " + they + ") rotate(" + theangle + " 25 10)";
+      let theangle = this.angle;
+      return (
+        "translate(" + thex + " " + they + ") rotate(" + theangle + " 25 10)"
+      );
+    }
+  },
+  methods: {
+    close() {
+      this.$emit("closeCB");
     }
   }
 };
