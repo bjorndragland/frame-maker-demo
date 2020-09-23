@@ -6,6 +6,7 @@
 </template>
 
 <script>
+//test
 import UiMain from "./components/UiMain.vue";
 
 export default {
